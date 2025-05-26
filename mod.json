@@ -1,0 +1,18 @@
+{
+	"geode": "4.4.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "shcal.allow_low_volume",
+	"name": "Allow Low Volume",
+	"version": "v1.0.0",
+	"developer": "shcal",
+	"description": "Allows the music volume slider to go under 3% without defaulting to 0",
+	"tags": [
+		"offline",
+		"music"
+	]
+}
