@@ -1,3 +1,3 @@
 # Allow Low Volume
-Does the same thing (I presume) as the megahack option.
+Removes the behavior where music volume set below 3% defaults to silent.
 Primarily useful for mobile users with no volume mixer.
