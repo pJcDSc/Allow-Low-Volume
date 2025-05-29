@@ -8,11 +8,14 @@
 	},
 	"id": "shcal.allow_low_volume",
 	"name": "Allow Low Volume",
-	"version": "v1.1.1",
+	"version": "v1.1.2",
 	"developer": "shcal",
 	"description": "Allows the music volume slider to go under 3% without defaulting to 0",
 	"tags": [
 		"offline",
 		"music"
-	]
+	],
+	"links": {
+		"source": "https://github.com/pJcDSc/Allow-Low-Volume/"
+	}
 }
