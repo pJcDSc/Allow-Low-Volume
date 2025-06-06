@@ -9,7 +9,7 @@ class $modify(OptionsLayer) {
 		float new_vol;
 		FMODAudioEngine *F;
 
-		new_vol = reinterpret_cast<SliderThumb*>(p0)->getValue();
+		new_vol = static_cast<SliderThumb*>(p0)->getValue();
 		F = FMODAudioEngine::sharedEngine();
 		F->setBackgroundMusicVolume(new_vol);
 	}
@@ -22,7 +22,7 @@ class $modify(PauseLayer) {
 		float new_vol;
 		FMODAudioEngine *F;
 
-		new_vol = reinterpret_cast<SliderThumb*>(p0)->getValue();
+		new_vol = static_cast<SliderThumb*>(p0)->getValue();
 		F = FMODAudioEngine::sharedEngine();
 		F->setBackgroundMusicVolume(new_vol);
 	}
